@@ -1,0 +1,16 @@
+node_modules/
+.gradle/
+build/
+target/
+.idea/
+*.class
+*.jar
+__pycache__/
+*.pyc
+db.sqlite3
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+vendor/
+.env
