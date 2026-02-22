@@ -1,5 +1,8 @@
 require_relative "boot"
-require "rails/all"
+
+# Only load the frameworks we need (no ActiveRecord — no database for this template)
+require "action_controller/railtie"
+require "action_view/railtie"
 
 module TemplateRails
   class Application < Rails::Application
